@@ -16,6 +16,10 @@ build-type:          Simple
 cabal-version:       >=1.8
 
 executable TomeOfStories
-  -- main-is:             
+  main-is:             Main.hs
   -- other-modules:       
   build-depends:       base ==4.6.*
+                     , text
+                     , scotty >= 0.8.1
+                     , wai-extra >= 3.0.1
+                     , wai >= 3.0.0.2
