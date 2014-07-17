@@ -23,3 +23,6 @@ executable TomeOfStories
                      , scotty >= 0.8.1
                      , wai-extra >= 3.0.1
                      , wai >= 3.0.0.2
+                     , HDBC >= 2.4.0.0
+                     , HDBC-sqlite3 >= 2.3.3.0
+                     , time >= 1.4.2
